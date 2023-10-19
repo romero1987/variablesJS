@@ -28,7 +28,15 @@ document.write("Año: "+ anioActual + "<br>")
 document.write("Año: "+ anioActual)
 
 //ventanas emergentes
-alert('esto es una prueba de alerta');
+//alert('esto es una prueba de alerta');
 
 let color = prompt('Ingresa un color');
 console.log(color);
+
+//solictar al usuario un numero, y al numero indicado por el usuario sumar por 15
+let numeroSeleccionado = parseInt(prompt('ingrese un numero del 1 a 100'));
+console.log(numeroSeleccionado);
+console.log(numeroSeleccionado + 15);
+
+//parseInt ('10') devuelve 10 - transforma un string en un numero (int)
+//parseFloat ('10.5') devuelve 10.5
